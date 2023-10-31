@@ -1,0 +1,13 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footer {
+  width: 50px;
+  height: auto;
+}
