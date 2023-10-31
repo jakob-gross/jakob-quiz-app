@@ -1,7 +1,8 @@
 .title-header {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: aquamarine;
+  font-family: var(--mainFont);
+
   background-color: black;
+  color: var(--mainColor);
 
   width: 100vw;
   padding: 10px;

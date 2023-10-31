@@ -5,3 +5,8 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --mainColor: aquamarine;
+  --mainFont: "Trebuchet MS", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
