@@ -6,5 +6,9 @@ button {
   font-size: 0.9rem;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 8px grey;
+}
+button:hover {
   box-shadow: 4px 4px 8px red;
 }
