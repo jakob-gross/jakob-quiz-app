@@ -2,9 +2,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   color: aquamarine;
   background-color: black;
-  margin: ;
-  text-align: center;
-  padding: 4px;
+
+  width: 100vw;
+  padding: 10px;
   top: 0px;
+  text-align: center;
   position: fixed;
+  z-index: 1;
 }
