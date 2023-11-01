@@ -8,22 +8,29 @@
   font-family: var(--mainFont);
   background-color: var(--mainColor);
   box-shadow: 4px 4px 8px;
+  max-width: 600px;
 }
 
-.tag-container {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
+.answer-card {
+  display: none;
 }
 
 .bookmark-unfilled {
   width: 20px;
   height: auto;
   position: absolute;
-  right: 3px;
+  right: 11px;
   top: -10px;
 }
+.bookmark-unfilled:hover ~ h4 {
+  color: brown;
+}
 
+.tag-container {
+  display: flex;
+  justify-content: ;
+  gap: 10px;
+}
 .tag {
   background-color: grey;
   border-radius: 8%;
