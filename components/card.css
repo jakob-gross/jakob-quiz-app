@@ -8,7 +8,8 @@
   font-family: var(--mainFont);
   background-color: var(--mainColor);
   box-shadow: 4px 4px 8px;
-  max-width: 600px;
+  max-width: 800px;
+  min-width: 600px;
 }
 
 .answer-card {
@@ -28,7 +29,7 @@
 
 .tag-container {
   display: flex;
-  justify-content: ;
+  justify-content: center;
   gap: 10px;
 }
 .tag {
