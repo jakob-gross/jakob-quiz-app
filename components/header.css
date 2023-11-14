@@ -1,14 +1,20 @@
 .title-header {
-  font-family: var(--mainFont);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  background-color: black;
-  color: var(--mainColor);
-
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: ;
+  /* flex-direction: row; */
+  /* max-width: 400px; */
+  position: fixed;
+  top: 0;
   width: 100vw;
+  padding-top: 10px;
+  background-color: rgb(134, 167, 137);
+  z-index: 1;
+  padding-bottom: 10px;
+  /* width: 100vw;
   padding: 10px;
   top: 0px;
   text-align: center;
   position: fixed;
-  z-index: 1;
-}
+ 
+} */

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./components/form.css" />
+    <script src="form.js" defer></script>
+
+    <title>Jakobs Quiz App</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title-header">Jakob`s Quiz App</h1>
+    </header>
+    <main>
+      <form class="form-container" data-js="form">
+        <label for="question-add">Your question:</label>
+        <textarea
+          name="question-add"
+          id=""
+          cols="30"
+          rows="3"
+          maxlength="100"
+          data-js="question-add"
+        ></textarea>
+        <display data-js="question-characters-left"
+          >characters left 150</display
+        >
+        <label for="answer-add">Your answer:</label>
+        <textarea
+          name="answer-add"
+          id=""
+          cols="30"
+          rows="5"
+          maxlength="100"
+          data-js="answer-add"
+        ></textarea>
+        <display data-js="answer-characters-left">characters left 150</display>
+
+        <label for="Tag">Tag:</label>
+        <input data-js="tag" name="Tag" type="text" width="200px" />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <nav class="navigation-bar">
+        <a href="./index.html"
+          ><img
+            class="footerElement"
+            src="./resources/home_filled.png"
+            alt="home button"
+        /></a>
+        <a href="./bookmark.html"
+          ><img
+            class="footerElement"
+            src="./resources/bookmark_transparent.png"
+            alt="bookmark button"
+        /></a>
+
+        <a href="./form.html"
+          ><img
+            class="footerElement"
+            src="./resources/question.png"
+            alt="form button"
+        /></a>
+
+        <a href="./profile.html"
+          ><img
+            class="footerElement"
+            src="./resources/profile.png"
+            alt="profile button"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>

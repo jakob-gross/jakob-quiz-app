@@ -4,29 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./global.css" />
+    <script src="index.js"></script>
     <title>Jakobs Quiz App</title>
   </head>
   <body>
     <header>
       <h1 class="title-header">Jakob`s Quiz App</h1>
     </header>
-  </body>
+    <main>
+      <section class="card-container">
+        <section class="question-card question-card--1">
+          <img
+            class="bookmark-unfilled bookmark-white"
+            data-js="bookmark-white"
+            src="./resources/bookmark.png"
+            alt=""
+            srcset=""
+          />
+
+          <img
+            class="bookmark-unfilled bookmark-black hiddenBookmark"
+            data-js="bookmark-black"
+            src="./resources/bookmark_filled.png"
+            alt=""
+            srcset=""
+          />
+
+          <h4 data-js="Question1">What does CSS stand for?</h4>
+          <h4 data-js="Answer1" class="hiddenAnswer">
+            CSS stands for **Cascading Style Sheets**.
+          </h4>
+
+          <button class="button" data-js="Button1" type="button">
+            Show Answer
+          </button>
+          <section class="tag-container">
+            <p class="tag">#html</p>
+            <p class="tag">#flexbox</p>
+            <p class="tag">#css</p>
+          </section>
+        </section>
+
+        <section class="question-card">
+          <img
+            class="bookmark-unfilled"
+            src="./resources/bookmark.png"
+            alt=""
+            srcset=""
+          />
+          <h4>
+            Which HTML tag is used to link an external CSS file to an HTML
+            document?
+          </h4>
+          <button class="button" type="button">Show Answer</button>
+          <section class="tag-container">
+            <p class="tag">#tag</p>
+            <p class="tag">#link</p>
+            <p class="tag">#css</p>
+          </section>
+        </section>
+
+    </main>
+ 
 
   <footer>
     <nav class="navigation-bar">
       <a href="./index.html"
-        ><img class="footer" src="./resources/home.png" alt="home button"
+        ><img class="footerElement" src="./resources/home.png" alt="home button"
       /></a>
       <a href="./bookmark.html"
         ><img
-          class="footer"
+          class="footerElement"
           src="./resources/bookmark.png"
           alt="bookmark button"
       /></a>
+      <a href="./form.html"
+        ><img
+          class="footerElement"
+          src="./resources/question.png"
+          alt="form button"
+      /></a>
       <a href="./profile.html"
-        ><img class="footer" src="./resources/profile.png" alt="profile button"
+        ><img class="footerElement" src="./resources/profile.png" alt="profile button"
       /></a>
     </nav>
   </footer>
+</body>
 </html>
