@@ -1,12 +1,24 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  /* height: 100%; */
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: rgb(178, 200, 186); */
+}
+
 .question-card {
   border: 2px solid;
   margin: 40px;
   text-align: center;
   padding: 10px;
-  border-radius: 5%;
+  border-radius: 0%;
   position: relative;
   font-family: var(--mainFont);
-  background-color: var(--mainColor);
+  background-color: rgb(235, 243, 232);
   box-shadow: 4px 4px 8px;
   max-width: 800px;
   min-width: 600px;
@@ -24,7 +36,10 @@
   top: -10px;
 }
 .bookmark-unfilled:hover ~ h4 {
-  color: brown;
+  color: rgb(134, 167, 137);
+}
+h4 {
+  transition: color 0.5s ease-in-out;
 }
 
 .tag-container {
