@@ -1,0 +1,11 @@
+.profile-pic {
+  padding-top: 70px;
+  padding-left: 70px;
+  /* padding: 30px; */
+}
+.profile-container {
+  display: flex;
+
+  padding: 5px;
+  align-items: center;
+}

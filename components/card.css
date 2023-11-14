@@ -24,6 +24,10 @@
   min-width: 600px;
 }
 
+/* .question-card--1 {
+  transition: transform 1s ease-in-out;
+} */
+
 .answer-card {
   display: none;
 }
@@ -42,6 +46,13 @@ h4 {
   transition: color 0.5s ease-in-out;
 }
 
+/* .bookmark-white:active > ^ {
+  transform: rotate(360deg);
+}
+.bookmark-black:active ^ {
+  transform: rotate(360deg);
+} */
+
 .tag-container {
   display: flex;
   justify-content: center;
@@ -49,8 +60,9 @@ h4 {
 }
 .tag {
   background-color: grey;
-  border-radius: 8%;
-  padding: 10px;
+  border-radius: 10%;
+  padding: 7px;
+  font-size: medium;
   margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 5px;
